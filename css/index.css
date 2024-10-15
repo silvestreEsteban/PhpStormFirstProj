@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+}
+
+.homepage-main-section {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid black;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#left-side-main-section-homepage {
+    width: 40%;
+    height: 97%;
+    border: 1px solid black;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#right-side-main-section-homepage {
+    width: 55%;
+    height: 97%;
+    border: 1px solid black;
+    margin: 10px 0;
+}
+
+.homepage-main-section {
+    font-family: "Arial";
+}
+
+#left-side-main-section-homepage h1, h4, p {
+    max-width: 90%;
+    text-align: center;
+}
+
+#main-page-form{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    border: 1px solid firebrick;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.form-inputs input {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.form-inputs label {
+    width: 100px;
+}
