@@ -12,7 +12,6 @@ body {
 .homepage-main-section {
     width: 90%;
     margin: 20px auto;
-    border: 1px solid black;
     height: 700px;
     display: flex;
     flex-direction: row;
@@ -22,7 +21,8 @@ body {
 #left-side-main-section-homepage {
     width: 40%;
     height: 97%;
-    border: 1px solid black;
+    border: 2px solid firebrick;
+    border-radius: 8px;
     margin: 10px 0;
     display: flex;
     flex-direction: column;
@@ -30,9 +30,10 @@ body {
 
 }
 #right-side-main-section-homepage {
-    width: 55%;
+    width: 50%;
     height: 97%;
-    border: 1px solid black;
+    border: 2px solid firebrick;
+    border-radius: 8px;
     margin: 10px 0;
 }
 
@@ -64,6 +65,71 @@ body {
     width: 200px;
 }
 
+.span-class {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
 .form-inputs label {
     width: 100px;
+}
+
+#submit-btn, #submitGetReq {
+    width: 200px;
+    margin: 50px auto;
+    background-color: firebrick;
+    border: 1px solid firebrick;
+    border-radius: 8px;
+    cursor: pointer;
+    color: linen;
+}
+
+#submit-btn:hover, #submitGetReq:hover{
+    background-color: linen;
+    color: firebrick;
+}
+
+#fav-thing {
+    max-width: 200px;
+    margin-left: 10px;
+    width: 200px;
+    max-height: 60px;
+    height: 60px;
+}
+
+.top-rs-section-hp {
+    font-family: Thonburi, sans-serif;
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 2px solid firebrick;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-rs-section-hp h4 {
+    margin-left: 130px;
+    margin-right: -80px;
+}
+.display-content{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.display-content p {
+    margin-top: 5px;
 }
